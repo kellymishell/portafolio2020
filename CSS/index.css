@@ -1,0 +1,178 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+
+.dos{ /* caja dos*/
+    width: 499px; /* ancho*/
+    height: 350px;/*alto */
+    float:left;/*hacia la izquierda */
+    background: cyan;/*color de fondo */
+    margin-top: 10px;/* m hacia arriba*/
+    margin-left: 20px;/* m hacia la izquiera*/
+    margin-bottom: 10px; /* anchura inferior */
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); /* sombra*/
+    overflow: hidden; /* no mostrar*/
+    float: left; /*hacia la izq */
+}
+.dos img{ /* propiedad img*/
+   width: 499px; /* ancho*/
+   height: 350px;/* alyto*/
+   margin-left: 0%;
+   border-radius: 2%;/* radio*/
+   margin-top: 5%;
+}
+.dos ul{ /* dos listas */
+  display: flex; /* comportamiento */
+  padding: 0px; /* relleno */
+
+animation: cambio 20s infinite; /* crea la animacion */
+}
+.dos li{ /* dos listas */
+
+list-style: none; /* no mostrar n lista*/
+}
+@keyframes cambio { /* cada porcentaje  representa el tiempo que pasa cada imagen */
+0%{margin-left: 0%;}
+20%{margin-left: 0%;}
+
+25%{margin-left:-100%;}
+45%{margin-left: -100%;}
+
+50%{margin-left:-200%;}
+70%{margin-left: -200%;}
+}
+/* */
+.tres{
+  width: 45%;/*ancho*/
+  height: 350px;/*alto*/
+  background-color: #ffccee;/*color*/
+  margin-left: 650px;/*establece margen de izquierda*/
+  margin-top: 20px;/*establece margen de arriba*/
+}
+.as h1{
+  margin-top: 65PX;
+}
+
+.tarjeta_2{
+  width: 330PX;
+  height: 430PX;
+  border-radius: 8PX;/*le da la forma al borde*/
+      box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);/*agrgar sombras*/
+      overflow: hidden; /*agrga contenido dentro de la caja*/
+      margin: 20px;/*margen*/
+      text-align: center;/*justuficar texto*/
+      transition: all 0.25s;/*controla tiempo de animacions*/
+      margin-left: 50px;
+
+      }
+.tarjeta_2:hover{
+  transform: translateY(-15px);/*cambio de forma o posicion*/
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);/*agrgar sombras*/
+
+}
+.tarjeta_2 img{
+  width: 330px;
+  height: 220px;
+
+}
+.tarjeta_2 h1 {
+  font-weight: 600px; /*establece de una vez los valores de font*/
+
+}
+.tarjeta_2 p  {
+  padding: 0 inherit;
+  font-weight: 300px;/*establece de una vez los valores de font*/
+  font-size: 26px;
+}
+.tarjeta_1 a{
+  font-weight: 500;/*establece de una vez los valores de font*/
+  text-decoration: none;/*decoracion del texto*/
+  color :#ace7ff;
+  font-size: 25px;/*tamaño letrs*/
+}
+
+
+
+.tarjeta_3{
+  width: 330PX;
+  height: 430PX;
+  border-radius: 8PX;/*le da la forma al borde*/
+      box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);/*agrgar sombras*/
+      overflow: hidden;/*agrga contenido dentro de la caja*/
+      margin: 20px;
+      text-align: center;/*justuficar texto*/
+      transition: all 0.25s;/*controla tiempo de animacions*/
+      margin-left: 450px;
+      margin-top: -452px;
+
+      }
+.tarjeta_3:hover{
+  transform: translateY(-15px);/*cambio de forma o posicion*/
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);/*agrgar sombras*/
+
+}
+.tarjeta_3 img{
+  width: 330px;
+  height: 220px;
+
+}
+.tarjeta_3 h1 {
+  font-weight: 600px;
+
+}
+.tarjeta_3 p  {
+  padding: 0 inherit;
+  font-weight: 300px;/*establece de una vez los valores de font*/
+  font-size: 26px;
+}
+
+
+.tarjeta_4{
+  width: 330PX;
+  height: 430PX;
+  border-radius: 8PX;
+      box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+      overflow: hidden;/*agrga contenido dentro de la caja*/
+      margin: 20px;
+      text-align: center;/*justuficar texto*/
+      transition: all 0.25s;/*controla tiempo de animacions*/
+      margin-left: 850px;
+      margin-top: -452px;
+
+      }
+.tarjeta_4:hover{
+  transform: translateY(-15px);/*cambio de forma o posicion*/
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);/*agrgar sombras*/
+
+}
+.tarjeta_4 img{
+  width: 330px;
+  height: 220px;
+
+}
+.tarjeta_4 h1 {
+  font-weight: 600px;/*establece de una vez los valores de font*/
+
+}
+.tarjeta_4 p  {
+  padding: 0 inherit;
+  font-weight: 300px;/*establece de una vez los valores de font*/
+  font-size: 26px;/*tamaño de letra*/
+}
+.asd{
+  height: 65PX; /*alto*/
+  width: 100%;/*ancho*/
+  background-color: #ffccee;
+
+}
+.cuadro_4{
+  width: 100%;/*ancho*/
+  height: 85px;/*alto*/
+  background-color: #FADBD8 ;/*color*/
+  flex-wrap: wrap;
+
+}

@@ -1,0 +1,26 @@
+*{
+margin: 0;
+padding: 0;
+}
+.cuadro_2{
+  width: 100%;/*ancho*/
+  height: 85px;/*alto*/
+  background-color:  #FADBD8 ;/*color*/
+  margin-top: 45px;/*establece margen de arriba*/
+
+}
+.cuadro_2 button{
+  margin-left: 100PX;/*establece margen de izquierda*/
+  margin-top: 0px;
+  background:#FADBD8;
+border-style:dotted;/*Establece el estilo de algunos o todos los bordes*/
+  height: 85px;
+  cursor:pointer; cursor: hand; /*indica que la forma del cursor*/
+
+
+}
+@media only screen and (max-width:767px){
+.cuadro_2{
+width:100%;/*ancho*/
+height:65px;/*alto*/
+}

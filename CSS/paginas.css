@@ -1,0 +1,25 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Amatic SC', cursive;
+}
+header{
+    height: 95px;
+    width: 100%;
+    background-color: antiquewhite;
+}header button{
+    margin-left: 25px;
+    color: rosybrown;
+    width: 55px;
+    height: 45px;
+    margin-top: -15px;
+    border-style:dotted;/*Establece el estilo de algunos o todos los bordes*/
+    cursor:pointer; cursor: hand; /*indica que la forma del cursor*/
+     background-color: antiquewhite;
+     color: black;
+} section input{
+    width: 40%;
+    margin-top: 45px;
+    margin-left: 55PX;
+}

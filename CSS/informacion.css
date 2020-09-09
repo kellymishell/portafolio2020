@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Amatic SC', cursive;
+}
+header{
+  width: 100%;/*ancho*/
+  height: 85PX;/*alto*/
+  background: #ffc9de;/*color*/
+}
+section{
+  width: 100%;/*ancho*/
+  max-width: 1200px;
+  height: 430px;/*alto*/
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.tarjeta_1{
+  width: 330PX;
+  height: 430PX;
+  border-radius: 8PX;/*le da la forma al borde*/
+      box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);/*agrgar sombras*/
+      overflow: hidden;/*agrga contenido dentro de la caja*/
+      margin: 20px;/*margen*/
+      text-align: center;/*justuficar texto*/
+      transition: all 0.25s;/*controla tiempo de animacions*/
+      }
+.tarjeta_1:hover{
+  transform: translateY(-15px);/*cambio de forma o posicion*/
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);/*agrgar sombras*/
+
+}
+.tarjeta_1 img{
+  width: 330px;/*ancho*/
+  height: 220px;/*largo*/
+
+}
+.tarjeta_1 h1 {
+  font-weight: 600px;/*establece de una vez los valores de font*/
+
+}
+.tarjeta_1 p  {
+  padding: 0 inherit;
+  font-weight: 300px;/*establece de una vez los valores de font*/
+  font-size: 26px;/*tamaño letra*/
+}

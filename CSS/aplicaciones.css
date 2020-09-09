@@ -1,0 +1,100 @@
+*{
+font-family: 'Amatic SC', cursive;
+font-size: 35px;
+margin: 0;
+padding: 0;/* relleno */
+}
+header{
+    background: aquamarine;
+    width: 100%;/* ancho*/
+    height: 75px;/*alto */
+}
+body{
+  background-color: #EDEDED;/*color de fondo */
+}
+section{
+  display: flex;
+  font-size: 14px;
+}
+.uno{
+  height: 400px;/*alto */
+  width: 480px;/* ancho*/
+
+  margin-top: 20px;/* m hacia arriba*/
+  margin-left: 15px;/* m hacia la izquiera*/
+  border: #EDEDED 2px solid;
+      border-radius: 10px;
+      overflow: hidden;/* no mostrar*/
+      position: relative;
+      cursor: pointer;/*que muestre un aamno en el cursor*/
+}.uno img{
+  width: 480px;/* ancho*/
+  height: 410px;/*alto */
+}.uno:hover img{
+  transform: scale(1.2) rotate(10deg);/* PARA QUE ROTE LA IMAGEN Y SE ACERQUE*/
+}.uno h1{
+  position: absolute;/*que se quede fija*/
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  left: 50%;
+  z-index: 1;/*ordenar los elementos que se superpongan entre */
+  color:white;/*color*/
+  font-size: 25px;/*tamaño de letra*/
+}.uno:hover h1{
+    transform: translate(-50%, -50%) scale(1);
+    transition: all 400MS;/*controla tiempo de animacions*/
+}.uno:before,
+.uno:after{
+  content:   '' ;
+  width: 2800PX;/* ancho*/
+  height: 200PX;/*alto */
+  position: absolute;/*que se quede fija*/
+  top: 0PX;
+  left: 0PX;
+opacity: 0.3; /*define el grado de no transparencia*/
+transition:  all 400ms/*controla tiempo de animacions*/
+}/* PARA CREAR LA VENTANA */
+
+
+
+
+
+
+.dos{
+  width: 480px;/* ancho*/
+  height: 400px;/*alto */
+
+  margin-top: 20px;
+  margin-left: 15px;
+  border: #EDEDED 2px solid;
+      border-radius: 10px;
+      overflow: hidden;
+      position: relative;
+      cursor: pointer;
+}.dos img{
+  width: 480px;/* ancho*/
+  height: 410px;
+}.dos:hover img{
+  transform: scale(1.2) rotate(10deg);/* PARA QUE ROTE LA IMAGEN Y SE ACERQUE*/
+}.dos h1{
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  left: 50%;
+  z-index: 1;
+  color:#070606;
+  font-size: 25px;
+}.dos:hover h1{
+    transform: translate(-50%, -50%) scale(1);
+    transition: all 400MS;
+}.dos:before,
+.dos:after{
+  content:   '' ;
+  width: 2800PX;/* ancho*/
+  height: 200PX;/*alto */
+  position: absolute;
+  top: 0PX;
+  left: 0PX;
+opacity: 0.3;
+transition:  all 400ms
+}/* PARA CREAR LA VENTANA */
